@@ -112,6 +112,8 @@ Here is a comparison between the available compression algorithms with test data
 .. note:: Results with your data may vary! Make sure to test the different compression types
           to find the one that is best for your data.
 
+.. warning:: The current implementation of lz4 is not compatible with the lz4 cli tools. Decompress the lz4 archives on the command line is not possible.
+
 
 .. _archive-config-option-checksum-type:
 
